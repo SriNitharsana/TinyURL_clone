@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const res = await fetch('http://localhost:5000/api/shorten', {
+      const res = await fetch('https://tinyurl-clone-5ml3.onrender.com/shorten', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
