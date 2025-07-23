@@ -1,0 +1,77 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMTgtYmItNl8xXzIuanBn.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", sans-serif;
+  color: #001aff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 20px #00ffff;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #111;
+  color: rgb(242, 247, 247);
+  font-size: 1rem;
+  box-shadow: 0 0 5px #0ff;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #0ff;
+}
+
+button:hover {
+  background-color: #00cccc;
+  box-shadow: 0 0 20px #0ff;
+}
+
+.result {
+  margin-top: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+  color: rgb(241, 250, 250);
+  box-shadow: 0 0 10px rgb(228, 231, 231);
+}
+
+.result a {
+  color: #00ffff;
+  text-decoration: underline;
+}
